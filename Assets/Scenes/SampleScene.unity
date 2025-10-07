@@ -1341,7 +1341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4dea09b4f704224db936fae50af11e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PredictionController
-  apiBaseUrl: http://192.168.1.10:5000
+  apiBaseUrl: http://172.20.10.2:5000
   cameraManager: {fileID: 828083274}
   genderText: {fileID: 1166069484}
   emotionText: {fileID: 1020820612}

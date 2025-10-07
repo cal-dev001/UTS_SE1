@@ -1,7 +1,5 @@
-// PredictionController.cs (REVISI)
-
 using System.Collections;
-using System.Collections.Generic; // Diperlukan untuk List
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -11,7 +9,7 @@ using UnityEngine.XR.ARSubsystems;
 public class PredictionController : MonoBehaviour
 {
     [Header("API Settings")]
-    public string apiBaseUrl = "http://192.168.1.10:5000"; // Ganti dengan IP-mu
+    public string apiBaseUrl = "http://172.20.10.2:5000";
 
     [Header("AR Components")]
     [SerializeField] private ARCameraManager cameraManager;
