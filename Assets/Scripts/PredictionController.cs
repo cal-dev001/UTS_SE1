@@ -9,7 +9,11 @@ using UnityEngine.XR.ARSubsystems;
 public class PredictionController : MonoBehaviour
 {
     [Header("API Settings")]
+<<<<<<< HEAD
     public string apiBaseUrl = "http://192.168.1.6:10000/";
+=======
+    public string apiBaseUrl = "http://172.20.10.2:5000";
+>>>>>>> 6af1dfc60b31915ac28daf48c0773c922d59d460
 
     [Header("AR Components")]
     [SerializeField] private ARCameraManager cameraManager;
